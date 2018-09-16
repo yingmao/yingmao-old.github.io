@@ -6,28 +6,35 @@
     <description>Recent content in Short Bio on Ying Mao</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 24 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://yingmao.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>CISC-4615 Data Communication and Network, 2018 Fall</title>
+      <title>Contact</title>
+      <link>https://yingmao.github.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yingmao.github.io/contact/</guid>
+      <description> Email: ymao41 at fordham.edu Office: John Mulcahy Hall 328A (Rose Hill)  </description>
+    </item>
+    
+    <item>
+      <title>Data Communication and Network</title>
       <link>https://yingmao.github.io/cisc4615/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/cisc4615/</guid>
-      <description>Description This course provides an introduction to fundamental concepts in the design and implementation of computer communication networks, their protocols, and applications. Topics to be covered include: overview of network architectures, applications, network programming interfaces (e.g., sockets), transport, congestion, routing, and data link protocols, addressing, local area networks, wireless networks, network security, and network management. Examples will be drawn primarily from the Internet (e.g., TCP, UDP, and IP) protocol suite.</description>
+      <description>Description (CISC4615, Fall 2018) This course provides an introduction to fundamental concepts in the design and implementation of computer communication networks, their protocols, and applications. Topics to be covered include: overview of network architectures, applications, network programming interfaces (e.g., sockets), transport, congestion, routing, and data link protocols, addressing, local area networks, wireless networks, network security, and network management. Examples will be drawn primarily from the Internet (e.g., TCP, UDP, and IP) protocol suite.</description>
     </item>
     
     <item>
-      <title>CISC3500 Database System 2018 Fall</title>
+      <title>Database System</title>
       <link>https://yingmao.github.io/cisc3500/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/cisc3500/</guid>
-      <description>Description This course covers database design and the use of databases in applications, with a introduction to the internals of relational database engines. It includes extensive coverage of the data model, relational algebra, query optimization, query processing, and SQL programming. There will be programming projects/labs, which explore database design and management by utilizing appropriate features of SQL.  Please see the course syllabus for details.
- Instructor: Dr. Ying Mao Lectures: Tuesday / Friday 8:30 a.</description>
+      <description>Description (CISC 3500, Fall 2018) This course covers database design and the use of databases in applications, with a introduction to the internals of relational database engines. It includes extensive coverage of the data model, relational algebra, query optimization, query processing, and SQL programming. There will be programming projects/labs, which explore database design and management by utilizing appropriate features of SQL.  Please see the course syllabus for details.</description>
     </item>
     
     <item>
@@ -40,14 +47,12 @@
     </item>
     
     <item>
-      <title>Teaching</title>
-      <link>https://yingmao.github.io/teaching/</link>
+      <title>Publications</title>
+      <link>https://yingmao.github.io/publications/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yingmao.github.io/teaching/</guid>
-      <description> Current Semester @ Fordham 2018 Fall 
-- CISC 3500 Database System - CISC 4615 Data Communication and Network
-Teaching History  CSC470: Mobile Application Development (@ TCNJ) CSC435: Programming Languages (@ TCNJ) CSC270: Discrete Structures (@ TCNJ) CSC230: Computer Science II: Data Structures (@ TCNJ) CSC199: CS Professional Development Seminar (@ TCNJ) CS115/IT115: Programming in Java 2 (@ UMass Boston) CS341: Computer Architecture and Organization (@ UMass Boston) CS443: Mobile Applications (@ UMass Boston) IT443: Network Security Administration (@ UMass Boston) IT244: Introduction to Unix/Linux (@ UMass Boston)  </description>
+      <guid>https://yingmao.github.io/publications/</guid>
+      <description>2018  Ying Mao, Victoria Green, Jiayin Wang, Haoyi Xiong, and Zhishan Guo, DRESS: Dynamic RESource-reservation Scheme for Congested Data-intensive Computing Platforms, The 2018 IEEE International Conference on Cloud Computing (CLOUD 2018), July, 2018 (Acceptance rate: 20%).  2017  Ying Mao, Jenna Oak, Anthony Pompili, Daniel Beer, Han Tao, and Peizhao Hu, DRAPS: Dynamic and Resource-Aware Placement Scheme for Docker Containers in a Heterogeneous Cluster, The IEEE 36th International Performance Computing and Communications Conference (IPCCC), December, 2017 (Acceptance rate: 30%).</description>
     </item>
     
     <item>
@@ -60,30 +65,23 @@ Teaching History  CSC470: Mobile Application Development (@ TCNJ) CSC435: Progra
     </item>
     
     <item>
-      <title>Publications</title>
-      <link>https://yingmao.github.io/publications/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://yingmao.github.io/publications/</guid>
-      <description>2018  Ying Mao, Victoria Green, Jiayin Wang, Haoyi Xiong, and Zhishan Guo, DRESS: Dynamic RESource-reservation Scheme for Congested Data-intensive Computing Platforms, The 2018 IEEE International Conference on Cloud Computing (CLOUD 2018), July, 2018 (Acceptance rate: 20%).  2017  Ying Mao, Jenna Oak, Anthony Pompili, Daniel Beer, Han Tao, and Peizhao Hu, DRAPS: Dynamic and Resource-Aware Placement Scheme for Docker Containers in a Heterogeneous Cluster, The IEEE 36th International Performance Computing and Communications Conference (IPCCC), December, 2017 (Acceptance rate: 30%).</description>
-    </item>
-    
-    <item>
-      <title>Contact</title>
-      <link>https://yingmao.github.io/contact/</link>
-      <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://yingmao.github.io/contact/</guid>
-      <description> Email: ymao41 at fordham.edu Office: John Mulcahy Hall 328A (Rose Hill)  </description>
-    </item>
-    
-    <item>
       <title>Short Bio</title>
       <link>https://yingmao.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/about/</guid>
       <description>Dr. Ying Mao is currently a tenure-track Assistant Professor in the Department of Computer and Information Science  at Fordham University in New York. He received his Ph.D. in Computer Science from University of Massachusetts Boston  advised by Dr. Bo Sheng  In addition, he obtained a Master of Science in Electrical Engineering  from University at Buffalo  and a Bachelor of Science in Telecommunication from Commanding Communication Academy (now National University of Defense Technology, Wuhan Campus, China).</description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://yingmao.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yingmao.github.io/teaching/</guid>
+      <description> Current Semester @ Fordham 2018 Fall 
+- CISC 3500 Database System - CISC 4615 Data Communication and Network
+Teaching History  CSC470: Mobile Application Development (@ TCNJ) CSC435: Programming Languages (@ TCNJ) CSC270: Discrete Structures (@ TCNJ) CSC230: Computer Science II: Data Structures (@ TCNJ) CSC199: CS Professional Development Seminar (@ TCNJ) CS115/IT115: Programming in Java 2 (@ UMass Boston) CS341: Computer Architecture and Organization (@ UMass Boston) CS443: Mobile Applications (@ UMass Boston) IT443: Network Security Administration (@ UMass Boston) IT244: Introduction to Unix/Linux (@ UMass Boston)  </description>
     </item>
     
   </channel>

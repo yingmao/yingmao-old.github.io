@@ -3,6 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yingmao.github.io/contact/</loc>
+  </url>
+  
+  <url>
     <loc>https://yingmao.github.io/cisc4615/</loc>
   </url>
   
@@ -15,7 +19,7 @@
   </url>
   
   <url>
-    <loc>https://yingmao.github.io/teaching/</loc>
+    <loc>https://yingmao.github.io/publications/</loc>
   </url>
   
   <url>
@@ -23,21 +27,15 @@
   </url>
   
   <url>
-    <loc>https://yingmao.github.io/publications/</loc>
-  </url>
-  
-  <url>
-    <loc>https://yingmao.github.io/contact/</loc>
-    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yingmao.github.io/</loc>
-    <lastmod>2018-08-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://yingmao.github.io/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://yingmao.github.io/teaching/</loc>
   </url>
   
 </urlset>
