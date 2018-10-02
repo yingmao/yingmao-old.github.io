@@ -64,7 +64,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/research/</guid>
-      <description>Coming soon&amp;hellip;</description>
+      <description>Dynamic Resource Management on the Cloud Docker Swarmkit Virtualization is a promising technology that has facilitated cloud computing to become the next wave of the Internet revolution. Adopted by data centers, millions of applications that are powered by various virtual machines improve the quality of services. Although virtual machines are well-isolated among each other, they suffer from redundant boot volumes and slow provisioning time. To address limitations, containers were born to deploy and run distributed applications without launching entire virtual machines.</description>
     </item>
     
     <item>
