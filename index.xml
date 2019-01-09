@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/cisc5950/</guid>
-      <description> Description (CISC 5950, Spring 2019) </description>
+      <description>Description (CISC 5950, Spring 2019) This course covers Apache Hadoop and Spark technologies and their ecosystems in the context of mining big data. It provides students both theoretical background and hands-on computing techniques in big data analytics and its applications. The students will learn how to collect, query, and analyze data. Topics include Hadoop core technologies (HDFS, MapReduce, Yarn), Spark Streaming, MLlib, Clustering, and Spark SQL. Scala programming language will be taught as part of the Spark component.</description>
     </item>
     
     <item>
