@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# website: http://ogp.me/ns/website#">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <meta name="description" content="">
+    <meta property="og:title" content="">
+    
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="0001-01-01">
+    
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://yingmao.github.io/q5/">
+    <meta property="og:site_name" content="Ying Mao">
+    
+    <meta name="generator" content="Hugo 0.47.1" />
+    <title> &middot; Ying Mao</title>
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="https://yingmao.github.io/css/style.css">
+    
+    <link href="https://yingmao.github.io/index.xml" rel="alternate" type="application/rss+xml" title="Ying Mao" />
+    
+    
+
+    
+    
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top visible-xs">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			
+				<a class="navbar-brand" href="https://yingmao.github.io/">Ying Mao</a>
+			
+		</div>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav">
+				
+				
+					<li><a href="https://yingmao.github.io/">Home</a></li>
+				
+					<li><a href="https://yingmao.github.io/news/">News</a></li>
+				
+					<li><a href="https://yingmao.github.io/teaching/">Teaching</a></li>
+				
+					<li><a href="https://yingmao.github.io/research/">Research</a></li>
+				
+					<li><a href="https://yingmao.github.io/publications/">Publication</a></li>
+				
+					<li><a href="https://yingmao.github.io/contact/">Contact</a></li>
+				
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="container-fluid">
+	<div class="row">
+		<div id="menu" class="hidden-xs col-sm-4 col-md-3">
+	<div id="menu-content" class="vertical-align">
+		
+			<h1 class="text-center"><a href="https://yingmao.github.io/">Ying Mao</a></h1>
+		
+
+		
+			<small class="text-center center-block " >Fordham University, New York</small>
+		
+		<div id="links" class="text-center" style="list-style-type:none">
+			
+			
+			<li style="font-size:35px">	<a href="https://yingmao.github.io/">Home</a></li>
+			
+			<li style="font-size:35px">	<a href="https://yingmao.github.io/news/">News</a></li>
+			
+			<li style="font-size:35px">	<a href="https://yingmao.github.io/teaching/">Teaching</a></li>
+			
+			<li style="font-size:35px">	<a href="https://yingmao.github.io/research/">Research</a></li>
+			
+			<li style="font-size:35px">	<a href="https://yingmao.github.io/publications/">Publication</a></li>
+			
+			<li style="font-size:35px">	<a href="https://yingmao.github.io/contact/">Contact</a></li>
+			
+		</div>
+	</div>
+</div>
+
+		<div id="content" class="col-xs-12 col-sm-8 col-md-9">
+			<div class="row">
+				<div id="post" class="col-sm-offset-1 col-sm-10 col-md-10 col-lg-8">
+
+
+<main>
+	<header>
+		<h1></h1>
+	</header>
+
+	<article>
+		
+
+<h4 id="q5">Q5</h4>
+
+<p>Our solution requires multiple MapReduce iterations. We have to:
+calculate whether items sales for any given month went up or down,
+create lists of items with the same sales change during the same month,
+find number of co-occurrences in those lists,
+choose items with maximum co-occurrences.</p>
+
+<p>First iteration calculates sales changes for any given month. We have to supply mapper, partitioner, custom sort and reducer. Mapper generates one intermediate key/value pair for each input key/value. Key is composed of sold item and sales month. Value contains number of sold pieces.</p>
+
+<p>Partitioner sends all key/value pairs with the same item to the same reducer. Custom sort sorts them by months. Finally, reducer calculates sales changes.</p>
+
+<pre><code>Input:
+    key: user id,
+  value: timestamp, item, count.
+
+Intermediate key/values:
+    key: item, month 
+  value: count.
+
+Output:
+    key: month, up/down/equal
+  value: item.
+</code></pre>
+
+<pre><code>class MAPPER
+  method MAP(user_id, (timestamp, item, count))
+    month = get_month(timestamp)
+    emit((item, month), count)
+ 
+class PARTITIONING_COMPARATOR
+  method compare(key (item1, month1), key (item2, month2))
+    if item1 = item2
+      return keys are equal
+ 
+    return keys are different
+ 
+class SORTING_COMPARATOR
+  method compare(key (item1, month1), key (item2, month2))
+    if item1 = item2 do
+      return compare(month1, month2)
+          
+    return compare(item1, item2)
+ 
+class REDUCER
+  method REDUCE((item, month), counts[c1, c2, ..., cn])
+    c = sum([c1, c2, ..., cn])
+    if last_item = item
+      if last_month + 1 = month
+        //emit correct up/down/equal flags
+        if last_count &lt; count
+          emit((item, month), up)
+        if last_count &gt; count
+          emit((item, month), down)
+        if last_count = count
+          emit((item, month), equal)
+      else
+        //no sales during some months
+        emit((item, last_month + 1), down)
+        emit((item, month), up)
+    else
+      // new item
+      emit((last_item, last_month + 1), down)
+      emit((item, month), up)
+ 
+    last_item = item
+    last_count = count
+    last_month = month
+</code></pre>
+
+<p>Second iteration groups first iteration results by keys. It generates lists of items with same sales changes during the same month. Framework does all the work. Both mapper and reducer perform an identity function.</p>
+
+<pre><code>Input:
+    key: month, up/down/equal
+  value: item.
+
+Output:
+    key: month, up/down/equal
+  value: [items].
+Third iteration performs standard 'co-occurrences by pairs' algorithm.
+Input:
+    key: month, up/down/equal
+  value: [items].
+
+Intermediate key/values:
+    key: item, item
+  value: partial number of co-occurrences.
+
+Output:
+    key: item, item
+  value: number of months when both items sales rose or decline.
+      #: the output contains all items couples
+</code></pre>
+
+<pre><code>class MAPPER
+  method MAP((month, change), items[i1, i2, ..., in])
+    for each i in items do
+      for each j in items do
+        if i != j
+          emit((i, j), 1)
+ 
+class COMBINER
+  method COMBINE((item1, item2), co-occurrences[c1, c2, ..., cn])
+    s = 0
+    for all c in co-occurrences[c1, c2, ..., cn] do
+      s = s + c
+ 
+    emit((item1, item2), s)
+ 
+class REDUCER
+  method REDUCE((item, item), co-occurrences[c1, c2, ..., cn])
+    s = 0
+    for all c in co-occurrences[c1, c2, ..., cn] do
+      s = s + c
+ 
+    emit((item1, item2), s)
+</code></pre>
+
+<p>Finally, we have to choose 20 key/value pairs with maximum value. Each mapper selects 20 key/value pairs with maximum value and emits them with the same key. There will be only one reducer which selects final 20 key/value pairs.
+Input:
+    key: item, item
+  value: number of months when both items sales rose or decline.
+      #: the output contains all items couples</p>
+
+<pre><code>Intermediate key/values:
+    key: 1
+  value: item, item, number of months when both items sales rose or decline.
+      #: the output contains 20 key/value pairs with maximum value for each mapper
+
+Output:
+    key: item, item
+  value: number of months when both items sales rose or decline.
+      #: the output contains 20 key/value pairs with maximum value
+</code></pre>
+
+	</article>
+</main>
+
+<br>  </br>
+<br>  </br>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+  </div>
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  
+  
+  <script src="https://yingmao.github.io//js/App.js"></script>
+  
+</body>
+</html>
+
