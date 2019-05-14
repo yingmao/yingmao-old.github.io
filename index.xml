@@ -74,13 +74,12 @@ First iteration calculates sales changes for any given month. We have to supply 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/news/</guid>
-      <description> April 5, 2019, One paper accepted to IEEE SECON 2019
+      <description>May 13, 2019, One paper accepted to IEEE SmartData 2019
+ April 5, 2019, One paper accepted to IEEE SECON 2019
  March 5, 2019, I have been awarded Fordham Faculty Research Grant.
  January 9, 2019, I have been awarded Google Cloud Education Grant
  November 30, 2018, I have been selected as the Fordham-IBM Research Fellow.
- October 15, 2018, I have been awarded the Nvidia GPU Seed Grant.
- August 27, 2018: New start at Fordham.
-  </description>
+ October 15, 2018, I have been awarded the Nvidia GPU Seed Grant.</description>
     </item>
     
     <item>
@@ -90,7 +89,8 @@ First iteration calculates sales changes for any given month. We have to supply 
       
       <guid>https://yingmao.github.io/publications/</guid>
       <description>Names with &amp;ldquo;_&amp;rdquo; underlines are my students.
-2019  Anil Acharya, Yantian Hou, Ying Mao, Min Xian, and Jiawei Yuan, Workload-Aware Task Placement in Edge-Assisted Human Re-identification, The 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON 2019), June, 2019 (Acceptance rate: 28%).  2018  Ying Mao, Victoria Green, Jiayin Wang, Haoyi Xiong, and Zhishan Guo, DRESS: Dynamic RESource-reservation Scheme for Congested Data-intensive Computing Platforms, The 2018 IEEE International Conference on Cloud Computing (CLOUD 2018), July, 2018 (Acceptance rate: 20%).</description>
+2019  Anil Acharya, Yantian Hou, Ying Mao, and Jiawei Yuan, Edge-Assisted Image Processing with Joint Optimization of Responding and Placement Strategy, The 5th Annual IEEE International Conference on Smart Data (SmartData 2019), July, 2019 (Acceptance rate: 25%).
+ Anil Acharya, Yantian Hou, Ying Mao, Min Xian, and Jiawei Yuan, Workload-Aware Task Placement in Edge-Assisted Human Re-identification, The 16th Annual IEEE International Conference on Sensing, Communication, and Networking (SECON 2019), June, 2019 (Acceptance rate: 28%).</description>
     </item>
     
     <item>
