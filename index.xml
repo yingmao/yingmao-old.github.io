@@ -61,6 +61,15 @@ First iteration calculates sales changes for any given month. We have to supply 
     
     <item>
       <title>Database System</title>
+      <link>https://yingmao.github.io/cisc3500-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yingmao.github.io/cisc3500-1/</guid>
+      <description>Description (CISC 3500, Fall 2018) This course covers database design and the use of databases in applications, with a introduction to the internals of relational database engines. It includes extensive coverage of the data model, relational algebra, query optimization, query processing, and SQL programming. There will be programming projects/labs, which explore database design and management by utilizing appropriate features of SQL.  Please see the course syllabus for details.</description>
+    </item>
+    
+    <item>
+      <title>Database System</title>
       <link>https://yingmao.github.io/cisc3500/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -118,8 +127,8 @@ First iteration calculates sales changes for any given month. We have to supply 
       
       <guid>https://yingmao.github.io/teaching/</guid>
       <description> Current Semester @ Fordham 2019 Spring 
-- CISC 5950 Big Data Programming - CISC 4615 Data Communication and Network
-Teaching History  CISC3500: Database System (@ Fordham 2018Fall) CISC4615: Data Communication and Network (@ Fordham 2018Fall) CSC470: Mobile Application Development (@ TCNJ) CSC435: Programming Languages (@ TCNJ) CSC270: Discrete Structures (@ TCNJ) CSC230: Computer Science II: Data Structures (@ TCNJ) CSC199: CS Professional Development Seminar (@ TCNJ) CS115/IT115: Programming in Java 2 (@ UMass Boston) CS341: Computer Architecture and Organization (@ UMass Boston) CS443: Mobile Applications (@ UMass Boston) IT443: Network Security Administration (@ UMass Boston) IT244: Introduction to Unix/Linux (@ UMass Boston)  </description>
+- CISC 5950 Big Data Programming - CISC 3500 Database System
+Teaching History  CISC 5950 Big Data Programming (@ Fordham 2018Spring) CISC3500: Database System (@ Fordham 2018Fall, 2019Fall) CISC4615: Data Communication and Network (@ Fordham 2018Fall) CSC470: Mobile Application Development (@ TCNJ) CSC435: Programming Languages (@ TCNJ) CSC270: Discrete Structures (@ TCNJ) CSC230: Computer Science II: Data Structures (@ TCNJ) CSC199: CS Professional Development Seminar (@ TCNJ) CS115/IT115: Programming in Java 2 (@ UMass Boston) CS341: Computer Architecture and Organization (@ UMass Boston) CS443: Mobile Applications (@ UMass Boston) IT443: Network Security Administration (@ UMass Boston) IT244: Introduction to Unix/Linux (@ UMass Boston)  </description>
     </item>
     
   </channel>
