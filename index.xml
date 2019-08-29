@@ -74,7 +74,7 @@ First iteration calculates sales changes for any given month. We have to supply 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/cisc3500/</guid>
-      <description>Description (CISC 3500, Fall 2018) This course covers database design and the use of databases in applications, with a introduction to the internals of relational database engines. It includes extensive coverage of the data model, relational algebra, query optimization, query processing, and SQL programming. There will be programming projects/labs, which explore database design and management by utilizing appropriate features of SQL.  Please see the course syllabus for details.</description>
+      <description>Description (CISC 3500, Fall 2019) This course covers database design and the use of databases in applications, with a introduction to the internals of relational database engines. It includes extensive coverage of the data model, relational algebra, query optimization, query processing, and SQL programming. There will be programming projects/labs, which explore database design and management by utilizing appropriate features of SQL.  Please see the course syllabus for details.</description>
     </item>
     
     <item>
