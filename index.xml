@@ -74,10 +74,9 @@ First iteration calculates sales changes for any given month. We have to supply 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://yingmao.github.io/news/</guid>
-      <description>July 1st, 2019, One paper authored with Fordham Students accepted to IEEE HPEC 2019. Congratulations to Wenjia Zheng, Yun Song, Zihao Guo, Yongcheng Cui and Suwen Gu.
- May 20, 2019, One paper authored with Fordham Students accepted to IEEE ICPP 2019. Congratulations to Wenjia Zheng, Mike Tynes and Henry Gorelick.
- May 13, 2019, One paper accepted to IEEE SmartData 2019
- April 5, 2019, One paper accepted to IEEE SECON 2019</description>
+      <description>October 18th, 2019 One paper authored with Fordham Students accepted to IEEE Big Date 2019. Congratulations to Yuqi Fu, Shaolun Zhang, and Jose Terrero.
+ July 1st, 2019, One paper authored with Fordham Students accepted to IEEE HPEC 2019. Congratulations to Wenjia Zheng, Yun Song, Zihao Guo, Yongcheng Cui and Suwen Gu.
+ May 20, 2019, One paper authored with Fordham Students accepted to IEEE ICPP 2019. Congratulations to Wenjia Zheng, Mike Tynes and Henry Gorelick.</description>
     </item>
     
     <item>
@@ -87,8 +86,8 @@ First iteration calculates sales changes for any given month. We have to supply 
       
       <guid>https://yingmao.github.io/publications/</guid>
       <description>Names with &amp;ldquo;_&amp;rdquo; underlines are my students.
-2019  Wenjia Zheng, Song Yun, Zihao Guo, Yongchen Cui, Suwen Gu, Ying Mao, Long Cheng, Target-based Resource Allocation for Deep Learning Applications in a Multi-tenancy System, The 23rd IEEE High Performance Extreme Computing Conference(HPEC 2019), September, 2019
- Wenjia Zheng, Mike Tynes, Henry Gorelick, Ying Mao, Long Cheng, and Yantian Hou, FlowCon: Elastic Flow Configuration for Containerized Deep Learning Applications, The 48th ACM International Conference on Parallel Processing (ICPP 2019), August, 2019 (Acceptance rate: 26%)</description>
+2019  Yuqi Fu, Shaolun Zhang, Jose Terrero, Ying Mao, Guangya Liu, Sheng Li, and Dingwen Tao Target-based Resource Allocation for Deep Learning Applications in a Multi-tenancy System, The 2019 IEEE International Conference on Big Data (BigData 2019), December, 2019 (Acceptance rate: 19.2%)
+ Wenjia Zheng, Song Yun, Zihao Guo, Yongchen Cui, Suwen Gu, Ying Mao, Long Cheng, Target-based Resource Allocation for Deep Learning Applications in a Multi-tenancy System, The 23rd IEEE High Performance Extreme Computing Conference(HPEC 2019), September, 2019</description>
     </item>
     
     <item>
