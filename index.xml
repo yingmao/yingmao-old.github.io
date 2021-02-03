@@ -31,11 +31,11 @@ First iteration calculates sales changes for any given month. We have to supply 
     
     <item>
       <title>Big Data Programming</title>
-      <link>https://yingmao.github.io/cisc5950s20/</link>
+      <link>https://yingmao.github.io/cisc5950s21/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://yingmao.github.io/cisc5950s20/</guid>
-      <description>Description (CISC 5950, Fall 2019) This course covers Apache Hadoop and Spark technologies and their ecosystems in the context of mining big data. It provides students both theoretical background and hands-on computing techniques in big data analytics and its applications. The students will learn how to collect, query, and analyze data. Topics include Hadoop core technologies (HDFS, MapReduce, Yarn), Spark Streaming, MLlib, Clustering, and Spark SQL. Scala programming language will be taught as part of the Spark component.</description>
+      <guid>https://yingmao.github.io/cisc5950s21/</guid>
+      <description>Description (CISC 5950, Spring 2021) This course covers Apache Hadoop and Spark technologies and their ecosystems in the context of mining big data. It provides students both theoretical background and hands-on computing techniques in big data analytics and its applications. The students will learn how to collect, query, and analyze data. Topics include Hadoop core technologies (HDFS, MapReduce, Yarn), Spark Streaming, MLlib, Clustering, and Spark SQL. Scala programming language will be taught as part of the Spark component.</description>
     </item>
     
     <item>
